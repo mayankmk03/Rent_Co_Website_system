@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set New Password</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="newPass.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- JQuery and Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="row">
+      <!-- <img src="images/Path 40.svg" alt="img"> -->
+
+      <!-- Left Part -->
+      <div class="col-md-6 left-part">
+        <img id="imgSettingPass" src="images/NewPassword_copy.png" alt="Avatar setting New Password">
+        <h2 class="h2signIn">From our Family?</h2>
+        <button type="button" class="btn btn-outline-success signin"><b>SIGN IN</b></button>
+        <h2 class="h2signUp">New Here?</h2>
+        <button type="button" class="btn btn-outline-success signup"><b>SIGN UP</b></button>
+      </div>
+      <!-- Right Part -->
+
+      <div class="col-md-6 right-part">
+        <img id="white-logo" src="images/White Favicon.png" alt="white-logo">
+        <img id="green-logo" src="images/Green Favicon.png" alt="green-logo">
+        <h1>Enter your New Password</h1>
+        <form class="inputs" action="index.html" method="post">
+          <input class="input-container" type="password" name="" placeholder="Set New Password"><br>
+          <i class="far fa-eye togglePassword" id="togglePassword1"></i>
+          <input class="input-container" type="password" name="" placeholder="Confirm New Password">
+          <i class="far fa-eye togglePassword" id="togglePassword2"></i>
+        </form>
+
+        <!-- Bottom-Section -->
+        <div class="bottom-section">
+          <button class="resetPass" type="submit" name="button">RESET PASSWORD</button>
+          <h3>Or Sign Up with edu mail id</h3>
+          <i class="fab fa-google google-logo"></i>
+          <br>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

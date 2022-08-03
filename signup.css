@@ -1,0 +1,283 @@
+
+/* Styles for Full Page */
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background:#247B85; */
+}
+
+body{
+  background-color: #247B85;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/Path 40.svg");
+}
+
+/* Styling Headings */
+
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1, h3{
+  color: white;
+}
+
+h1{
+  font-weight: bold;
+  position: absolute;
+  right: 20.5%;
+  top: 16%;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 2rem;
+  color: #247B85;
+  margin-bottom: 3%;
+}
+
+h3{
+  position: absolute;
+  font-size: 1rem;
+  bottom: 14%;
+  right: 18%;
+}
+
+/* Login and Forgot Password */
+
+.signin{
+  display: block;
+  border: #247B85 2px solid;
+  color: #247B85;
+  margin: 3% auto 5%;
+  padding: 0.8% 6%;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+
+.signin:hover{
+  background-color: #247B85;
+  border-color: #247B85;
+}
+
+a{
+  position: absolute;
+  color: white;
+  font-size: 1rem;
+  right: 20.8%;
+  bottom: 4.75%;
+}
+
+a:hover{
+  color: blue;
+}
+
+/* Inputs and Submit */
+
+.input-container, .create-account{
+  position: static;
+  text-align: left;
+  background: white;
+  border-radius: 50px;
+  border: white 2px solid;
+}
+
+.input-container{
+  position: relative;
+  font-size: 1.2rem;
+  padding-left: 7%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  margin: 2% 0% 4% 2%;
+  width: 300px;
+  height: 55px;
+}
+
+.inputs{
+  margin-top: 9.3rem;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.create-account{
+  color: #247B85;
+  font-weight: 650;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.8rem 4.25rem;
+  margin-top: 1rem;
+  margin-left: 10.5rem;
+}
+
+/* Styling Images and Logos */
+
+#Working{
+  margin-left: 8%;
+  width: 600px;
+  height: 70%;
+}
+
+#white-logo{
+  position: absolute;
+  right: 22%;
+  display: block;
+  width: 80px;
+  margin: 2.5% auto 0%;
+  padding: auto 5% auto;
+}
+
+#green-logo{
+  display: none;
+}
+
+.google-logo{
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  right: 25%;
+  bottom: 8.75%;
+}
+
+.togglePassword{
+  position: absolute;
+  color: #247B85;
+  font-size: 1.5rem;
+  right: 2.75%;
+  bottom: 33.5%;
+}
+
+/* Mobile Mode */
+
+@media (max-width: 900px){
+  body{
+    background-image: url("images/Path 42.svg");
+    background-color: white;
+  }
+  #Working{
+    display: none;
+  }
+
+  /* Headings and Anchor Tag */
+
+  h1{
+    position: absolute;
+    color: #247B85;
+    font-size: 2rem;
+    top: 52%;
+    right: 36%;
+  }
+
+  h2{
+    color: white;
+    margin-top: 9%;
+  }
+
+  h3{
+    position: absolute;
+    color: #247B85;
+    bottom: -89%;
+    right: 26%;
+  }
+
+  a{
+    position: absolute;
+    color: #247B85;
+    right: 36%;
+    bottom: -100%;
+  }
+
+  /* Login */
+
+  .signin{
+    color: white;
+    border-color: white;
+    margin-bottom: 20%;
+  }
+
+  .signin:hover{
+    color: #247B85;
+    background-color: white;
+    border-color: white;
+  }
+
+  /* Inputs and Submit button */
+
+  .inputs{
+    text-align: center;
+  }
+
+  .input-container{
+    position: relative;
+    background-color: #247B85;
+    border: #247B85 2px solid;
+    color: #white;
+  }
+
+  input{
+    color: white;
+  }
+
+  input::placeholder{
+  color: white;
+  }
+
+  .create-account{
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    background-color: #247B85;
+    border: #247B85 2px solid;
+    padding: 2% 4%;
+    margin-top: 3%;
+    margin-bottom: 2rem;
+    right: 7rem;
+    width: 16rem;
+    height: 3rem;
+  }
+
+  /* .bottom-section{
+    background-color: white;
+  } */
+  
+  /* .right-part{
+    background-color: white;
+  } */
+
+  /* Logos */
+
+  #white-logo{
+    display: none;
+  }
+
+  #green-logo{
+    position: absolute;
+    right: 40%;
+    display: block;
+    width: 80px;
+    padding: auto 5% auto;
+  }
+
+  .google-logo{
+    position: absolute;
+    color: #247B85;
+    bottom: -95%;
+    right: 48%;
+  }
+
+  .togglePassword{
+    position: absolute;
+    color: white;
+    right: 22%;
+    top: 162%;
+  }
+
+}

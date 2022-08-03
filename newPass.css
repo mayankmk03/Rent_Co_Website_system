@@ -1,0 +1,316 @@
+
+/* Styles for Full Page */
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background:#247B85; */
+}
+
+body{
+  background-color: #247B85;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/Path 40.svg");
+}
+
+
+/* Styling Headings */
+
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1, h3{
+  color: white;
+}
+
+h1{
+  font-weight: bold;
+  position: absolute;
+  right: 10.5%;
+  top: 20%;
+  font-size: 2rem;
+  margin-bottom: 1%;
+}
+
+h2{
+  position: absolute;
+  font-size: 2rem;
+  color: #247B85;
+  margin-bottom: 3%;
+}
+
+h3{
+  position: absolute;
+  font-size: 1rem;
+  bottom: 14%;
+  right: 18%;
+}
+
+.h2signIn{
+  left: 3%;
+  bottom: 9%;
+}
+
+.h2signUp{
+  left: 32%;
+  bottom: 9%;
+}
+
+/* Styling inputs and buttons */
+
+.signin{
+  position: absolute;
+  left: 4%;
+  bottom: -6%;
+}
+
+.signup{
+  position: absolute;
+  left: 30%;
+  bottom: -6%;
+}
+
+.signin, .signup{
+  position: absolute;
+  display: block;
+  border: #247B85 2px solid;
+  color: #247B85;
+  margin: 3% auto 5%;
+  padding: 0.8% 6%;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+
+.signin:hover, .signup:hover{
+  background-color: #247B85;
+  border-color: #247B85;
+}
+
+/* Inputs and Submit */
+
+.input-container, .resetPass{
+  position: static;
+  text-align: left;
+  background: white;
+  border-radius: 50px;
+  border: white 2px solid;
+}
+
+.input-container{
+  position: relative;
+  font-size: 1.2rem;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  margin: 2% 0% 4% 20%;
+  width: 370px;
+  height: 55px;
+}
+
+.inputs{
+  margin-top: 32.5%;
+}
+
+.resetPass{
+  color: #247B85;
+  font-weight: 650;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1% 5%;
+  margin-top: 1%;
+  margin-left: 13%;
+}
+
+/* Styling Images and Logos */
+
+#imgSettingPass{
+  margin-left: 12%;
+  width: 600px;
+  height: 70%;
+}
+
+#white-logo{
+  position: absolute;
+  right: 22%;
+  display: block;
+  width: 80px;
+  margin: 2.5% auto 0%;
+  padding: auto 5% auto;
+}
+
+#green-logo{
+  display: none;
+}
+
+.google-logo{
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  right: 25%;
+  bottom: 8.75%;
+}
+
+#togglePassword1{
+  position: absolute;
+  color: #247B85;
+  font-size: 1.5rem;
+  right: 13.75%;
+  bottom: 56.5%;
+}
+
+#togglePassword2{
+  position: absolute;
+  color: #247B85;
+  font-size: 1.5rem;
+  right: 13.75%;
+  bottom: 41.5%;
+}
+
+/* Mobile Mode */
+
+@media (max-width: 900px){
+  body{
+    background-image: url("images/Path_42.svg");
+    background-color: white;
+  }
+  #imgSettingPass{
+    display: none;
+  }
+
+  /* Headings and Anchor Tag */
+
+  h1{
+    position: absolute;
+    color: #247B85;
+    font-size: 1.85rem;
+    top: 60%;
+    right: 10%;
+  }
+
+  h2{
+    position: absolute;
+    color: white;
+  }
+
+  h3{
+    position: absolute;
+    color: #247B85;
+    bottom: -24%;
+    right: 26%;
+  }
+
+  .h2signIn{
+    top: 17%;
+  }
+
+  .h2signUp{
+    top: 2%;
+    right: -15%;
+  }
+
+  /* Styling Buttons */
+
+  .signin, .signup{
+    position: absolute;
+    color: white;
+    background-color: #103C44;
+    margin: 0.2%;
+    padding: 0.4% 6%;
+    border: white 3px solid;
+  }
+
+  .signin:hover, .signup:hover{
+    color: #103C44;
+    background-color: white;
+    border-color: white;
+  }
+
+  .signup{
+    bottom: 84%;
+    left: 58%;
+  }
+
+  .signin{
+    left: 15%;
+    bottom: 68.5%;
+  }
+
+  /* Inputs and Submit button */
+
+  .inputs{
+    text-align: center;
+    margin-top: 95%;
+    margin-left: -20%;
+  }
+
+  .input-container{
+    position: relative;
+    background-color: #247B85;
+    border: #247B85 2px solid;
+    color: #white;
+  }
+
+  input{
+    color: white;
+  }
+
+  input::placeholder{
+  color: white;
+  }
+
+  .resetPass{
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    background-color: #247B85;
+    border: #247B85 2px solid;
+    padding: 2% 4%;
+    margin-top: 3%;
+    margin-bottom: 2rem;
+    right: 7rem;
+    width: 16rem;
+    height: 3rem;
+  }
+
+  /* Logos */
+
+  #white-logo{
+    display: none;
+  }
+
+  #green-logo{
+    position: absolute;
+    top: 45%;
+    right: 40%;
+    display: block;
+    width: 80px;
+    padding: auto 5% auto;
+  }
+
+  .google-logo{
+    position: absolute;
+    color: #247B85;
+    bottom: -32%;
+    right: 47%;
+  }
+
+  #togglePassword1{
+    position: absolute;
+    color: white;
+    right: 15%;
+    top: 76.5%;
+  }
+
+  #togglePassword2{
+    position: absolute;
+    color: white;
+    right: 15%;
+    top: 90.5%;
+  }
+}

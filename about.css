@@ -1,0 +1,182 @@
+
+/* Styles for Full Page */
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background:#247B85; */
+}
+
+body{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  position: absolute;
+  color: #247B85;
+  font-weight: bold;
+  font-size: 300%;
+  letter-spacing: 5px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  /* -webkit-box-reflect: below 0 linear-gradient(transparent, white); */
+  /* -webkit-gradient(linear, left top, left bottom, from(transparent),
+  color-stop(0.5, transparent),
+  to(rgba(255, 255, 255, 0.5))); */
+  /* text-shadow: 20px 20px 3px grey; */
+  top: 28%;
+  left: 12%;
+}
+
+p{
+  color: #247B85;
+}
+
+.h1-para1{
+  position: absolute;
+  left: 12%;
+  top: 45%;
+}
+
+.h1-para2{
+  position: absolute;
+  left: 12%;
+  top: 49%;
+}
+
+.h1-para3{
+  position: absolute;
+  left: 25%;
+  top: 55%;
+}
+
+.content-para1{
+  position: relative;
+  left: 7.5%;
+  bottom: -100%;
+}
+
+.content-para2{
+  position: relative;
+  left: 7.5%;
+  bottom: -105%;
+}
+
+.content-para3{
+  position: absolute;
+  left: 2.5%;
+  bottom: -50%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  position: relative;
+  color: #247b85 !important;
+  /* justify-content: end !important; */
+  font-size: 110%;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.img-team{
+  position: absolute;
+  width: 30%;
+  max-height: 60%;
+  bottom: -28%;
+  right: 11%;
+}
+
+.about-img{
+  position: absolute;
+  width: 46%;
+  max-height: 58%;
+  right: 5%;
+  top: 10%;
+}
+
+.button-home{
+  position: absolute;
+  left: 43%;
+  bottom: -58%;
+  border: 2px solid #247B85;
+  border-radius: 30px;
+  color: white;
+  background-color: #247B85;
+  padding: 0.5% 2%;
+  letter-spacing: 1.5px;
+  /* margin-bottom: 5%; */
+}
+
+@media (max-width: 900px){
+  .img-team{
+    display: none;
+  }
+
+  .about-img{
+    display: none;
+  }
+
+  h1, .h1-para1, .h1-para2{
+    left: 20%;
+  }
+
+  .h1-para3{
+    left: 58%;
+  }
+
+  .content-para1, .content-para2, .content-para3{
+    left: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .content-para1{
+    position: absolute;
+    top: 65%;
+  }
+
+  .content-para2{
+    position: absolute;
+    top: 94%;
+  }
+
+  .content-para3{
+    bottom: -70%;
+  }
+
+  .button-home{
+    bottom: -75%;
+    left: 36%;
+    /* margin-bottom: 5%; */
+  }
+
+  .navbar-brand{
+    display: none;
+  }
+
+  .navbar{
+    background-color: #f5f5f5;
+  }
+}

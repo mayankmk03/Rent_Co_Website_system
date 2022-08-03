@@ -1,0 +1,129 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+    background: #247B85;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    left: 1%;
+    top: 2%;
+}
+.left ul{
+    position: fixed;
+    top: 38%;
+    left: 1.5%;
+    list-style-type: none;
+    color: white;
+    
+}
+.icon2{
+    padding-bottom: 30%;
+}
+.icon3{
+    padding-bottom: 65%;
+}
+.icon4{
+    position: fixed;
+    left: 1.5%;
+    bottom: 2.3%;
+    color: white;
+}
+h6{
+    font-size: 10px;
+    text-transform: uppercase;
+    position: fixed;
+    left: 1.5%;
+    bottom: 0%;
+    color: white;
+    letter-spacing: 2px;
+}
+.search{
+    width: 15rem;
+    height: 2.5rem;
+    background-color: white;
+    position: absolute;
+    top: 2%;
+    right: 5.5%;
+    border-radius: 10px;
+    color: gray;
+    border: none;
+    padding-left: 1%;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    box-shadow: 3px 5px 5px gray;
+}
+.icon5{
+    position: absolute;
+    top: 2.7%;
+    right: 6%;
+    color: gray;
+}
+.lower ul{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 40%;
+    color: white;
+    margin: 0;
+    margin-left: 30%;
+    padding: 0;
+     
+}
+.lower li{
+    text-transform: uppercase;
+    display: block;
+    list-style-type: none;
+    font-weight: bold;
+}
+.bottom ul{
+    position: absolute;
+    right: 5%;
+    bottom: 3.1%;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.226);
+    margin: 0;
+    margin-left: 30%;
+    padding: 0;
+     
+}
+.bottom li{
+    text-transform: uppercase;
+    display: block;
+    list-style-type: none;
+    font-weight: bolder;
+}
+.right ul{
+    position: fixed;
+    top: 38%;
+    right: 1.5%;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.877);
+    
+}
+.righticon2{
+    padding-bottom: 30%;
+}
+.righticon3{
+    padding-bottom: 65%;
+}
+.righticon4{
+    position: fixed;
+    left: 1.5%;
+    bottom: 2.3%;
+}
+

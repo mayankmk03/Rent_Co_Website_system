@@ -1,0 +1,245 @@
+
+/* Styles for Full Page */
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background:#247B85; */
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Bottom Section of Page 1 */
+
+#section-1{
+  /* padding-bottom: 24%; */
+  background-color: #247B85;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: gold;
+}
+
+h3{
+  position: absolute;
+  color: white;
+  letter-spacing: 1.2px;
+  font-size: 1.3rem;
+  bottom: 3%;
+  text-shadow: 1px 0px 4px #000000;
+}
+
+.aboutus{
+  right: 43%;
+}
+
+.meet_team{
+  right: 25.75%;
+}
+
+.tc{
+  right: 2%;
+}
+
+h6{
+  position: fixed;
+  color: white;
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+  left: 0.9%;
+  bottom: 0.3%;
+}
+
+#brand_logo{
+  position: fixed;
+  left: 0.8%;
+  top: 1%;
+  width: 80px;
+}
+
+/* Fixed Bar Icons */
+
+.icon{
+  position: fixed;
+  color: white;
+  font-size: 1.5rem;
+  left: 0.8%;
+}
+
+.icon:hover{
+  color: gold;
+  /* color: #D3D3D3; */
+  text-shadow: 10px 10px;
+}
+
+.bg-img{
+  position: fixed;
+  width: 16%;
+  height: 104%;
+}
+
+.icon-1{
+  top: 34%;
+}
+
+.icon-2{
+  top: 45%;
+}
+
+.icon-3{
+  bottom: 38%;
+}
+
+.icon-4{
+  bottom: 28%;
+}
+
+.icon-5{
+  bottom: 18%;
+}
+
+.icon-6{
+  left: 0.1%;
+  bottom: 1.5%;
+  transform: rotate(180deg);
+}
+
+.main_logo{
+  position: absolute;
+  left: 13%;
+  top: 8%;
+  width: 37%;
+}
+
+/* Search Bar, Illustration and Social icons */
+
+.search-bar{
+  position: absolute;
+  color: black;
+  letter-spacing: 1.5px;
+  text-indent: 10px;
+  right: 4%;
+  top: 3%;
+  border: white 2px solid;
+  padding: 0.35% 0%;
+  border-radius: 10px;
+}
+
+.search-bar::placeholder{
+  color: grey;
+}
+
+.search-icon{
+  position: absolute;
+  font-size: 2rem;
+  color: grey;
+  right: 4%;
+  top: 3%;
+}
+
+.illustration{
+  position: absolute;
+  right: 12%;
+  top: 4%;
+  width: 37%;
+}
+
+.social_icons{
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+  text-align: right;
+  left: 96%;
+  top: 200px;
+}
+
+/* Post Ad Button */
+
+.post-ad{
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
+  right: 7%;
+  bottom: 12%;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  transition-duration: 0.2s;
+}
+
+.post-ad:hover {
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding-left: 25px;
+  border-radius: 40px;
+}
+
+.post-ad span{
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+  display: none;
+}
+
+.post-ad:hover span{
+  display: inline;
+  font-size: 2rem;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+#section-2{
+  background-color: #247B85;
+  background-image: url("images/Path 15.png");
+  margin-top: 25%;
+  padding-top: 10%;
+  padding-left: 15%;
+}
+
+.carousel{
+  position: absolute;
+  right: 20.5%;
+  top: 40.2%;
+}
+
+.card-body{
+  padding: 0.3rem 0.1rem;
+  height: 37px;
+}
+
+.card-text{
+  font-size: 0.5rem;
+}
+
+/* Section 2 */
+.rent{
+  text-align: center;
+  font-size: 2rem;
+  word-spacing: 10px;
+  margin-top: 8%;
+  font-weight: bold;
+  color: #247B85;
+  letter-spacing: 4px;
+}
+
+.rent a{
+  text-decoration: none;
+  color: #247B85;
+  text-transform: uppercase;
+}
+
+.rent a:hover{
+  border-bottom: 2px #247B85 solid;
+  margin-bottom: 0.5%;
+}

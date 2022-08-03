@@ -1,0 +1,291 @@
+
+/* Styles for Full Page */
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background:#247B85; */
+}
+
+body{
+  background-color: #247B85;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/Path 40 - copy.svg");
+}
+
+/* Styling Headings */
+
+h1{
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  right: 17.5%;
+  top: 30%;
+  letter-spacing: 4px;
+}
+
+h2{
+  position: absolute;
+  font-size: 2rem;
+  color: #247B85;
+  margin-bottom: 3%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.h2signIn{
+  left: 3%;
+  bottom: 9%;
+}
+
+.h2signUp{
+  left: 32%;
+  bottom: 9%;
+}
+
+p{
+  position: absolute;
+  color: white;
+
+}
+
+.code{
+  top: 42%;
+  right: 11.5%;
+  font-size: 140%;
+}
+
+.mail{
+  top: 47%;
+  right: 20.5%;
+  font-size: 140%;
+}
+
+.paralogin{
+  font-size: 120%;
+  right: 18%;
+  bottom: 10%;
+}
+
+/* Styling inputs and buttons */
+
+.signin{
+  position: absolute;
+  left: 4%;
+  bottom: -6%;
+}
+
+.signup{
+  position: absolute;
+  left: 30%;
+  bottom: -6%;
+}
+
+.signin, .signup{
+  position: absolute;
+  display: block;
+  border: #247B85 2px solid;
+  color: #247B85;
+  margin: 3% auto 5%;
+  padding: 0.8% 6%;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+
+.signin:hover, .signup:hover{
+  background-color: #247B85;
+  border-color: #247B85;
+}
+
+.input_box{
+  position: relative;
+  text-align: center;
+  color: black;
+  padding: 1%;
+  height: 12%;
+  max-width: 3.75%;
+  margin: 0.75%;
+  left: 61.25%;
+  bottom: 8.75rem;
+}
+
+.verification{
+  background-color: white;
+  color: #247B85;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.8% 6%;
+  right: 19.5%;
+  bottom: 21%;
+  border-radius: 50px;
+  border: white 1px solid;
+}
+
+
+/* Styling Logos and images */
+
+.laptop{
+  margin-top: 4%;
+  width: 45%;
+  max-height: 50%;
+}
+
+.white-logo{
+  position: absolute;
+  width: 8%;
+  right: 23.5%;
+  top: 9%;
+}
+
+.green-logo{
+  display: none;
+}
+
+.google-logo{
+  position: absolute;
+  color: white;
+  font-size: 150%;
+  right: 26.5%;
+  bottom: 5%;
+}
+
+
+/* Mobile Mode */
+
+@media (max-width: 900px){
+  body{
+    background-image: url("images/Path_42.svg");
+    background-color: white;
+  }
+
+  /* Styling Headings */
+
+  h1{
+    position: absolute;
+    color: #103C44;
+    font-size: 2rem;
+    top: 53%;
+    right: 24%;
+  }
+
+  h2{
+    position: absolute;
+    color: white;
+  }
+
+  .h2signIn{
+    top: 18%;
+    left: 2%;
+  }
+
+  .h2signUp{
+    top: 2%;
+    left: 55%;
+  }
+
+  p{
+    position: absolute;
+    color: #103C44;
+  }
+
+  .code{
+    top: 59%;
+    right: 8%;
+    font-size: 1.2rem;
+  }
+
+  .mail{
+    top: 63%;
+    right: 29%;
+    font-size: 1.2rem;
+  }
+
+  .paralogin{
+    position: absolute;
+    bottom: 1%;
+    left: 25%;
+  }
+
+  /* Styling Buttons */
+
+  .signin, .signup{
+    position: absolute;
+    color: white;
+    background-color: #103C44;
+    margin: 0.2%;
+    padding: 0.4% 6%;
+    border: white 3px solid;
+  }
+
+  .signin:hover, .signup:hover{
+    color: #103C44;
+    background-color: white;
+    border-color: white;
+  }
+
+  .signup{
+    bottom: 84%;
+    left: 58%;
+  }
+
+  .signin{
+    left: 15%;
+    bottom: 68.5%;
+  }
+
+  /* Inputs and Submit button */
+
+  .input_box{
+    position: relative;
+    top: 28rem;
+    left: 23.5%;
+    padding: 2% 4%;
+    margin: 2%;
+    background-color: #103C44;
+    border: #103C44 2px solid;
+    color: white;
+  }
+
+  .input_box::placeholder{
+  color: white;
+  }
+
+  .verification{
+    position: absolute;
+    bottom: 10%;
+    left: 26.5%;
+    padding: 1% 18%;
+    color: white;
+    background-color: #103C44;
+    border: #103C44 2px solid;
+  }
+
+  /* Logos */
+
+  .laptop{
+    display: none;
+  }
+
+  .white-logo{
+    display: none;
+  }
+
+  .green-logo{
+    position: absolute;
+    right: 41%;
+    top: 41%;
+    display: block;
+    width: 80px;
+  }
+
+  .google-logo{
+    position: absolute;
+    color: #103C44;
+    bottom: -4%;
+    right: 48%;
+  }
+}
